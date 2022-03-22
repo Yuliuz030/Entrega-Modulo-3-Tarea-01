@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Quicksand:wght@500&display=swap');
+
+html{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    color: white;
+    background: black;
+}
+h1{
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    border: 8px solid white;
+}
+.cantidadCompra{
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    border: 8px solid white;
+
+}
+.ctn-cantidad{
+    display: grid;
+    width: 20px;
+    margin: 20px 300px;
+}
+.ctn-cantidad label{
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+.cantidadCompra input{
+    height: 20px;
+}
+.cantidadCompra button{
+    width: 130px;
+    height: 7vh;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 43%;
+    margin-bottom: 5px;
+    font-weight: 600;
+    background-color: grey;
+}
+.ctn-compra{
+    width: 90%;
+    height: 30%;
+    border: 2px solid 0;
+    border-radius: 15px;
+    background: rgb(226, 217, 217);
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.ctn-compra h2{
+    margin: 15px 10px;
+    width: 20%;
+    display:block;
+    margin-bottom: 15px;
+}
+.ctn-input-valores label{
+    display:inline-block;
+    width: 45%;
+}
+.ctn-input-valores h3{
+    display:inline-flex;
+    width: 20%;
+}

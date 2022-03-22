@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULADORA PROPINAS</title>
+</head>
+
+<body>
+    <h1>CALCULADORA DE PROPINAS</h1>
+    <form action="" id="cantidadCompra" class="cantidadCompra">
+        <div class="ctn-cantidad">
+            <label for="cuenta">Total de la cuenta</label>
+            <input type="number" name="cantidad" id="cuenta" placeholder="Cantidad">
+            
+            <label for="propina">Porcentaje de la propina</label>
+            <input type="number" id="propina" placeholder="Propina">
+        </div>
+        <button id="btn-calcular" class="btn-calcular">Calcular</button>
+    
+        <section class="ctn-compra">
+            <h2>Resumen</h2>
+            <form id="valorCompra" class="valorCompra">
+                <div class="ctn-input-valores">
+                    <label for="total-cuenta">Total de la cuenta</label>
+                    <h3 id="total-cuenta"></h3>
+
+                    <label for="total-propina">Propina</label>
+                    <h3 id="total-propina" readonly></h3>
+
+                    <label for="total">Total a pagar</label>
+                    <h3 id="total"></h3>
+                </div>
+            </form>
+        </section>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
